@@ -1084,3 +1084,190 @@ strong {
 .course-card b {
   color: #fe006b;
 }
+
+@media (max-width: 500px) {
+  .sign-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign-main {
+    margin-top: 5em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bi-arrow-left {
+    display: none;
+  }
+
+  .sign-main h1 {
+    font-size: 3em;
+    line-height: 100%;
+  }
+
+  .sign-main h2 {
+    font-size: 1em;
+    margin-bottom: 2em;
+  }
+
+  .sign-main header button {
+    background-color: #212121;
+    padding: 0.5em 0.5em;
+    width: 15em;
+    border: 2px solid #5f5f5f;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .sign-main header button img {
+    width: 15%;
+  }
+
+  .sign-main header button:hover {
+    background-color: #252525;
+  }
+
+  .line-division {
+    margin: 2em 0 1em 0;
+  }
+
+  .sign-main input {
+    background-color: #2f2f2f;
+    width: 100%;
+    padding: 0.75em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #fff;
+  }
+
+  .sign-main input:focus {
+    outline: 1px solid #ff2f00;
+  }
+
+  .sign-button {
+    background: linear-gradient(225deg, #fe006b, #ff5500);
+    padding: 0.5em 10%;
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #212121;
+    border-radius: 5px;
+    margin-top: 1.5em;
+    cursor: pointer;
+  }
+
+  .sign-button:hover {
+    background: linear-gradient(45deg, #fe006b, #ff5500);
+  }
+
+  .sign-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-direction: column;
+  }
+
+  .sign-right {
+    width: 50%;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  .journey {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .sign-main p {
+    margin-top: 0.5em;
+  }
+
+  .sign-main section a {
+    color: #fe006b;
+    font-weight: 600;
+  }
+
+  .sign-main section a:hover {
+    text-decoration: underline;
+  }
+
+  .sign-main footer {
+    position: absolute;
+    font-size: 0.75em;
+    bottom: 1em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .annoying-footer {
+    transform: translateX(50%);
+  }
+
+  .sign-main footer a {
+    color: #fff;
+  }
+
+  .sign-rigth {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .sign-logo {
+    width: 50%;
+    margin: 1em 3em 0em auto;
+  }
+
+  .sign-right h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .sign-right footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3.5em;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1.5em;
+    font-size: 0.75em;
+  }
+
+  .sign-right footer ul {
+    display: flex;
+    gap: 4em;
+    align-items: center;
+  }
+
+  .line-division p::before {
+    content: " ";
+    width: 15%;
+    background: #5f5f5f;
+    height: 1px;
+    display: inline;
+  }
+
+  .sign-right footer svg {
+    transform: scale(1.2);
+  }
+}
