@@ -1177,7 +1177,7 @@ strong {
     width: 100%;
     border: none;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.25em;
     color: #212121;
     border-radius: 5px;
     margin-top: 1.5em;
@@ -1196,6 +1196,11 @@ strong {
     flex-direction: column;
   }
 
+  .annoying-footer {
+    position: static !important;
+    transform: translate(0) !important;
+  }
+
   .sign-right {
     width: 100%;
     background-color: #1f1f1f;
@@ -1212,6 +1217,11 @@ strong {
 
   .sign-main p {
     margin-top: 1em;
+    font-size: 1.1em;
+  }
+
+  .p-link {
+    margin-bottom: 3em;
   }
 
   .sign-main section a {
@@ -1227,6 +1237,14 @@ strong {
   .sign-main footer {
     font-size: 0.75em;
     text-align: center;
+  }
+
+  .sign-main footer ul {
+    padding: 0;
+  }
+
+  .sign-main footer ul li a {
+    display: none;
   }
 
   .sign-main footer a {
@@ -1248,6 +1266,7 @@ strong {
   .sign-right h2 {
     font-size: 2em;
     text-align: center;
+    margin-bottom: 2em;
   }
 
   .sign-right footer {
