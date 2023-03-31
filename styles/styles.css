@@ -714,6 +714,10 @@ strong {
   flex-direction: column;
 }
 
+.sign-main a {
+  text-decoration: none;
+}
+
 .sign-logo-main {
   display: none;
 }
@@ -824,10 +828,14 @@ strong {
 
 .sign-main footer {
   position: absolute;
-  font-size: 0.75em;
+  font-size: 0.8em;
   bottom: 1em;
   margin: auto;
   text-align: center;
+}
+
+.sign-main footer ul {
+  padding: 0;
 }
 
 .annoying-footer {
@@ -865,7 +873,7 @@ strong {
   width: 100%;
   margin: auto;
   margin-bottom: 1.5em;
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 
 .sign-right footer ul {
@@ -1098,11 +1106,6 @@ strong {
   .sign-main {
     margin-top: 10em;
     width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
     flex-direction: column;
     padding: 0 0 2em 0;
   }
@@ -1123,69 +1126,14 @@ strong {
 
   .sign-main h1 {
     font-size: 3em;
-    line-height: 100%;
-  }
-
-  .sign-main h2 {
-    font-size: 1em;
-    margin-bottom: 2em;
-  }
-
-  .sign-main header button {
-    background-color: #212121;
-    padding: 0.5em 0.5em;
-    width: 15em;
-    border: 2px solid #5f5f5f;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .sign-main header button img {
-    width: 15%;
-  }
-
-  .sign-main header button:hover {
-    background-color: #252525;
   }
 
   .line-division {
     margin: 2em 0 1em 0;
   }
 
-  .sign-main input {
-    background-color: #2f2f2f;
-    width: 100%;
-    padding: 0.75em;
-    margin-top: 1em;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1em;
-    color: #fff;
-  }
-
-  .sign-main input:focus {
-    outline: 1px solid #ff2f00;
-  }
-
   .sign-button {
-    background: linear-gradient(225deg, #fe006b, #ff5500);
-    padding: 0.5em 10%;
-    width: 100%;
-    border: none;
-    font-weight: 600;
     font-size: 1.25em;
-    color: #212121;
-    border-radius: 5px;
-    margin-top: 1.5em;
-    cursor: pointer;
-  }
-
-  .sign-button:hover {
-    background: linear-gradient(45deg, #fe006b, #ff5500);
   }
 
   .sign-options {
@@ -1201,18 +1149,21 @@ strong {
     transform: translate(0) !important;
   }
 
+  .not-annoying-footer {
+    position: static !important;
+    transform: translate(0) !important;
+    padding-top: 2em;
+  }
+
   .sign-right {
     width: 100%;
-    background-color: #1f1f1f;
-    display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    gap: 1em;
     padding-top: 2em;
   }
 
   .journey {
-    margin: 0 auto;
-    width: 90%;
+    width: 100%;
   }
 
   .sign-main p {
@@ -1222,41 +1173,6 @@ strong {
 
   .p-link {
     margin-bottom: 3em;
-  }
-
-  .sign-main section a {
-    color: #fe006b;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .sign-main section a:hover {
-    text-decoration: underline;
-  }
-
-  .sign-main footer {
-    font-size: 0.75em;
-    text-align: center;
-  }
-
-  .sign-main footer ul {
-    padding: 0;
-  }
-
-  .sign-main footer ul li a {
-    display: none;
-  }
-
-  .sign-main footer a {
-    color: #fff;
-  }
-
-  .sign-rigth {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
   }
 
   .sign-logo {
@@ -1270,13 +1186,7 @@ strong {
   }
 
   .sign-right footer {
-    display: flex;
-    padding: 0 3.5em;
-    align-items: center;
-    width: 100%;
-    margin: auto;
     margin-bottom: 1em;
-    font-size: 0.75em;
     flex-direction: column;
     justify-content: center;
     gap: 0.5em;
@@ -1287,9 +1197,6 @@ strong {
   }
 
   .sign-right footer ul {
-    display: flex;
-    gap: 5em;
-    align-items: center;
     padding: 0;
   }
 
@@ -1302,6 +1209,6 @@ strong {
   }
 
   .sign-right footer svg {
-    transform: scale(1.5);
+    transform: scale(1.75);
   }
 }
