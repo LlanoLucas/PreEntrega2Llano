@@ -770,7 +770,7 @@ strong {
   content: "";
   display: block;
   border-left: 1px solid black;
-  height: 1px;
+  height: 2px !important;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -781,7 +781,7 @@ strong {
 .line-division p::after {
   content: "";
   display: block;
-  height: 1px;
+  height: 2px;
   position: absolute;
   top: 50%;
   right: 0px;
