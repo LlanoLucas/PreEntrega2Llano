@@ -714,6 +714,10 @@ strong {
   flex-direction: column;
 }
 
+.sign-logo-main {
+  display: none;
+}
+
 .bi-arrow-left {
   transform: scale(2);
   color: #5f5f5f;
@@ -1085,14 +1089,14 @@ strong {
   color: #fe006b;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .sign-body {
     display: flex;
     flex-direction: column;
   }
 
   .sign-main {
-    margin-top: 5em;
+    margin-top: 10em;
     width: 100%;
     text-align: center;
     display: flex;
@@ -1100,6 +1104,17 @@ strong {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding: 0 0 2em 0;
+  }
+
+  .sign-logo-main {
+    display: block;
+    width: 65%;
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+    transform: translateX(-50%);
+    top: 1em;
   }
 
   .bi-arrow-left {
@@ -1182,11 +1197,12 @@ strong {
   }
 
   .sign-right {
-    width: 50%;
+    width: 100%;
     background-color: #1f1f1f;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    padding-top: 2em;
   }
 
   .journey {
@@ -1195,12 +1211,13 @@ strong {
   }
 
   .sign-main p {
-    margin-top: 0.5em;
+    margin-top: 1em;
   }
 
   .sign-main section a {
     color: #fe006b;
     font-weight: 600;
+    text-decoration: none;
   }
 
   .sign-main section a:hover {
@@ -1208,15 +1225,8 @@ strong {
   }
 
   .sign-main footer {
-    position: absolute;
     font-size: 0.75em;
-    bottom: 1em;
-    margin: auto;
     text-align: center;
-  }
-
-  .annoying-footer {
-    transform: translateX(50%);
   }
 
   .sign-main footer a {
@@ -1225,7 +1235,6 @@ strong {
 
   .sign-rigth {
     width: 50%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1233,8 +1242,7 @@ strong {
   }
 
   .sign-logo {
-    width: 50%;
-    margin: 1em 3em 0em auto;
+    display: none;
   }
 
   .sign-right h2 {
@@ -1244,19 +1252,26 @@ strong {
 
   .sign-right footer {
     display: flex;
-    justify-content: space-around;
     padding: 0 3.5em;
     align-items: center;
     width: 100%;
     margin: auto;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-size: 0.75em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+  }
+
+  .sign-right footer p {
+    font-size: 1.2em;
   }
 
   .sign-right footer ul {
     display: flex;
-    gap: 4em;
+    gap: 5em;
     align-items: center;
+    padding: 0;
   }
 
   .line-division p::before {
@@ -1268,6 +1283,6 @@ strong {
   }
 
   .sign-right footer svg {
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
 }
