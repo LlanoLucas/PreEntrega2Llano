@@ -762,6 +762,34 @@ strong {
   margin: 0.5em 0 1em 0;
 }
 
+.line-division p {
+  position: relative;
+}
+
+.line-division p::before {
+  content: "";
+  display: block;
+  border-left: 1px solid black;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 45% !important;
+}
+
+.line-division p::after {
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 45%;
+  transform: translateY(-50%);
+  background-color: #5f5f5f;
+}
+
 .sign-main input {
   background-color: #2f2f2f;
   width: 100%;
@@ -1198,14 +1226,6 @@ strong {
 
   .sign-right footer ul {
     padding: 0;
-  }
-
-  .line-division p::before {
-    content: " ";
-    width: 15%;
-    background: #5f5f5f;
-    height: 1px;
-    display: inline;
   }
 
   .sign-right footer svg {
