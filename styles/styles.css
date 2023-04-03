@@ -1275,6 +1275,126 @@ strong {
   }
   /* END OF EDUCATION STYLES */
 
+  /* COMPARE STYLES */
+  .compare {
+    margin-top: 6em;
+  }
+
+  .compare-tables {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .compare h2 {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .compare h3 {
+    margin: auto;
+    width: 80%;
+    padding-top: 0.25em;
+  }
+
+  .compare header p {
+    font-size: 1.1em;
+    margin-top: 1em;
+  }
+
+  .compare h4 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .compare-tables ul {
+    padding: 0;
+    color: #fff;
+  }
+
+  .table {
+    width: 80%;
+    margin: 0;
+  }
+
+  .vs {
+    margin: 1.25em 0;
+  }
+  /* END OF COMPARE STYLES */
+
+  /* BENEFITS STYLES */
+  .benefits {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 6em;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .benefits p {
+    font-size: 1.1em;
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  .benefits a {
+    text-decoration: none;
+    border-radius: 0;
+  }
+
+  .benefits img {
+    order: 2;
+    width: 100%;
+  }
+  /* END OF BENEFITS STYLES */
+
+  /* METODOLOGY STYLES */
+  .metodology a {
+    text-decoration: none;
+    font-size: 2em;
+  }
+
+  .metodology img {
+    display: none;
+  }
+
+  .metodology ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 1em;
+    margin-top: 4em;
+  }
+
+  .metodology ul li {
+    font-size: 1.5em;
+    width: 10em;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.25em 0;
+  }
+
+  .metodology ul li:first-child {
+    background: linear-gradient(135deg, #fe006b, #fe006a58);
+    -webkit-text-fill-color: #fff;
+  }
+
+  .metodology ul li:nth-child(2) {
+    background: linear-gradient(45deg, #fe006b, #ff8800);
+    -webkit-text-fill-color: #fff;
+  }
+
+  .metodology ul li:last-child {
+    background: linear-gradient(195deg, #a32600, #ff8800);
+    -webkit-text-fill-color: #fff;
+  }
+  /* END OF METODOLOGY STYLES */
+
   /* END OF INDEX STYLES */
 
   /* SIGN UP, SIGN IN STYLES */
