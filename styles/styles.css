@@ -1216,6 +1216,7 @@ strong {
   .learn-banner p {
     width: 80%;
     text-align: center;
+    margin-bottom: 1em;
   }
 
   .learn-banner a {
@@ -1235,7 +1236,43 @@ strong {
   /* END OF LEARN BANNER STYLES */
 
   /* EDUCATION STYLES */
+  .education {
+    margin-top: 6em;
+  }
 
+  .edu-img {
+    display: none;
+  }
+
+  .education-card {
+    width: 90%;
+  }
+
+  .education-card p {
+    margin: 0 1em;
+    padding: 0.5em 0;
+    font-size: 1.25em;
+  }
+
+  .education-card ul {
+    padding: 0;
+  }
+
+  .education-card ul li:last-child {
+    display: none;
+  }
+
+  .education-card ul {
+    justify-content: space-evenly;
+  }
+
+  .education-card img {
+    scale: 1.25;
+  }
+
+  .education-card strong {
+    font-size: 1.25em;
+  }
   /* END OF EDUCATION STYLES */
 
   /* END OF INDEX STYLES */
