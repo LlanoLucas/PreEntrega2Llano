@@ -376,7 +376,7 @@ main h2 {
 .benefits-body h1 {
   font-weight: 600;
   width: fit-content;
-  line-height: 1.25em;
+  line-height: 1em;
   background: linear-gradient(180deg, #dc3500, #ff8800);
   -webkit-text-fill-color: transparent;
   background-clip: content-box;
@@ -387,6 +387,7 @@ main h2 {
 
 .benefits-body h2 {
   font-weight: 600;
+  font-size: 1.25em;
 }
 
 .benefits-header {
@@ -513,18 +514,89 @@ main h2 {
 }
 
 .coupon {
-  width: 50%;
+  width: 55%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 2fr; */
   background: linear-gradient(45deg, #fe006b, #ff8800);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  height: 30em;
+  height: 20em;
+}
+
+.coupon__container {
+  background: #212121;
+  width: 70%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  background-image: linear-gradient(90deg, #212121, #212121),
+    linear-gradient(180deg, #dc3500, #ff8800);
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  justify-content: center;
 }
 
 .coupon__header {
-  padding: 1em;
+  padding: 2em;
+}
+
+.coupon__header p {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #212121;
+}
+
+.coupon__header a {
+  display: block;
+  text-align: end;
+  margin-right: 2em;
+  color: #212121;
+  font-weight: 600;
+}
+
+.coupon-copy {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1.75em;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin: 2em 0 0.5em 0;
+  background: transparent;
+  background-image: linear-gradient(90deg, #212121, #212121),
+    linear-gradient(180deg, #dc3500, #ff8800);
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.coupon-copy strong {
+  /* border-right: 2px solid #5f5f5f; */
+  padding: 0.5em 0;
+  font-weight: 600;
+}
+
+.coupon-copy svg {
+  scale: 2.5;
+  width: 1.25em;
+  fill: #ff8800;
+}
+
+.coupon__container p {
+  font-size: 1.25em;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 1.5em;
 }
 
 /* end of benefits styles */
@@ -1401,6 +1473,16 @@ strong {
   /* END OF METODOLOGY STYLES */
 
   /* END OF INDEX STYLES */
+
+  /* BENEFITS STYLES */
+  .benefits-main {
+    flex-direction: column;
+  }
+
+  .coupon {
+    width: 90%;
+  }
+  /* END OF BENEFITS STYLES */
 
   /* SIGN UP, SIGN IN STYLES */
   .sign-body {
