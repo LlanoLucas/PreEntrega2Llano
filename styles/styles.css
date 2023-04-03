@@ -1125,7 +1125,122 @@ strong {
   color: #fe006b;
 }
 
+/* MOBILE DESIGN */
 @media (max-width: 480px) {
+  /* INDEX STYLES */
+
+  /* HEADER STYLES */
+  .index-header {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .index-section-left {
+    width: 100%;
+  }
+
+  .index-header a {
+    display: block;
+    text-align: center;
+  }
+
+  .index-header h1 {
+    margin: 1.5em auto 0.4em auto;
+    text-align: center;
+  }
+
+  .index-header a {
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: #fe006b;
+    color: #212121;
+  }
+
+  .title {
+    margin-bottom: 5em;
+  }
+
+  .trusted ul {
+    padding: 0;
+    margin: 1.5em 0 0 0;
+    gap: 2em;
+  }
+
+  .trusted img {
+    scale: 1.25;
+  }
+
+  .trusted ul li:nth-child(2) {
+    order: -1;
+  }
+
+  .trusted ul li:last-child {
+    display: none;
+  }
+
+  .index-section-right {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .index-section-right h2 {
+    order: -1;
+    display: block;
+    text-align: center;
+  }
+  /* END OF HEADER STYLES */
+
+  .index-main {
+    margin-top: 12em;
+  }
+
+  /* LEARN BANNER STYLES */
+  .learn-banner {
+    width: 100%;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .learn-banner h3 {
+    display: block;
+    text-align: center;
+    align-self: center;
+  }
+
+  .learn-banner p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .learn-banner a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3em;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .learn-banner h3 {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  /* END OF LEARN BANNER STYLES */
+
+  /* EDUCATION STYLES */
+
+  /* END OF EDUCATION STYLES */
+
+  /* END OF INDEX STYLES */
+
+  /* SIGN UP, SIGN IN STYLES */
   .sign-body {
     display: flex;
     flex-direction: column;
