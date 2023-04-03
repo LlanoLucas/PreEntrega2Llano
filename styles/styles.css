@@ -1354,6 +1354,11 @@ strong {
   /* END OF BENEFITS STYLES */
 
   /* METODOLOGY STYLES */
+  .metodology h2 {
+    width: 90%;
+    margin: auto;
+  }
+
   .metodology a {
     text-decoration: none;
     font-size: 2em;
@@ -1368,7 +1373,7 @@ strong {
     align-items: center;
     padding: 0;
     gap: 1em;
-    margin-top: 4em;
+    margin: 3em 0;
   }
 
   .metodology ul li {
