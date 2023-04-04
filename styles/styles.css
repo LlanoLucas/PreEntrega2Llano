@@ -453,6 +453,7 @@ main h2 {
   display: flex;
   width: 100%;
   justify-content: center;
+  gap: 0.5em;
 }
 
 .b-mail {
@@ -1478,11 +1479,117 @@ strong {
   /* BENEFITS STYLES */
   .benefits-main {
     flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 16em;
+  }
+
+  .benefits-body h2 {
+    width: 90%;
+  }
+
+  .benefits-header {
+    align-items: center;
   }
 
   .coupon {
     width: 90%;
+    border-radius: 10px;
   }
+
+  .coupon__header p {
+    font-size: 1.5em;
+  }
+
+  .coupon__header a {
+    margin: 0;
+    font-size: 1.1em;
+  }
+
+  .coupon__container {
+    width: 90%;
+  }
+
+  .coupon-copy {
+    width: 90%;
+    margin-top: 0.5em;
+    justify-content: center;
+    gap: 0.5em;
+  }
+
+  .notification {
+    width: 90%;
+    height: 35em;
+  }
+
+  .notification h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+
+  .notification__container article {
+    width: 100%;
+    text-align: center;
+  }
+
+  .notification strong {
+    font-size: 1.25em;
+    padding-top: 1em;
+  }
+
+  .second-subscribe {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+  }
+
+  .b-subscribe,
+  .b-mail {
+    border-radius: 5px;
+  }
+
+  .b-subscribe {
+    font-weight: 600;
+  }
+
+  .main-ul {
+    flex-direction: column;
+    gap: 0.25em;
+    align-items: center;
+  }
+
+  .contact,
+  .help {
+    display: none;
+  }
+
+  .svg-ul {
+    padding: 0;
+    gap: 4em;
+    margin-top: 1.5em;
+  }
+
+  .benefits-body footer {
+    margin-top: 10em;
+  }
+
+  .benefits-body footer svg {
+    scale: 1.75;
+  }
+
+  .faqs {
+    width: 90%;
+  }
+
+  .faqs ul {
+    /* padding: 1em 0; */
+  }
+
+  .faqs ul li {
+    padding: 1em;
+  }
+
   /* END OF BENEFITS STYLES */
 
   /* SIGN UP, SIGN IN STYLES */
