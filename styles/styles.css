@@ -1477,6 +1477,10 @@ strong {
   /* END OF INDEX STYLES */
 
   /* BENEFITS STYLES */
+  .benefits-header {
+    margin-top: 4em;
+  }
+
   .benefits-main {
     flex-direction: column;
     align-items: center;
@@ -1485,7 +1489,8 @@ strong {
   }
 
   .benefits-body h2 {
-    width: 90%;
+    width: 80%;
+    font-weight: 400;
   }
 
   .benefits-header {
@@ -1536,6 +1541,7 @@ strong {
   .notification strong {
     font-size: 1.25em;
     padding-top: 1em;
+    width: 15em;
   }
 
   .second-subscribe {
