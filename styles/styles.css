@@ -419,6 +419,10 @@ main h2 {
   justify-content: center;
 }
 
+.notification__container input:focus {
+  outline: 1px solid #ff2f00;
+}
+
 .notification h3 {
   font-size: 1.5em;
   font-weight: 600;
@@ -1553,6 +1557,10 @@ strong {
   .b-subscribe,
   .b-mail {
     border-radius: 5px;
+  }
+
+  .b-subscribe input:focus {
+    outline: 1px solid #ff2f00;
   }
 
   .b-subscribe {
